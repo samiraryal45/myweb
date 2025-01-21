@@ -1,0 +1,39 @@
+:root{
+    /* colors */
+    --clr-dark:#020617; 
+    --clr-light:#f1f5f9;
+    --clr-red:#e11d48;
+    --clr-blue:#0000FF;
+    --clr-lightred:#eb6734;
+    --clr-lightblue:#0303fc;
+    --clr-grey:#7d8085;
+    /* sizes */ 
+    --size-xxs:0.25rem;
+    --size-xs:0.5rem;
+    --size-sm:0.875rem;
+    --size-md:1rem;
+    --size-lg:1.125rem;
+    --size-2xl:1.25rem;
+    --size-3xl:1.5rem;
+    --size-4xl:1.75rem;
+    --size-5xl:2rem;
+    --size-6xl:2.25rem;
+    --size-7xl:2.5rem;
+    --size-8xl:2.75rem;
+    
+
+    /* fonts */
+    --font-arial:arial;
+    --font-georgia:georgia;
+    --font-roman:times;
+    --font-helvetica:helvetica;
+
+}
+    
+body{
+    margin: 0;
+   
+}
+.section{
+    margin-top:1rem;
+}
