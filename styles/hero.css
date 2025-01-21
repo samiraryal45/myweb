@@ -54,6 +54,11 @@
     .hero__name{    
         font-size: var(--size-4xl);
     }
+    .hero__more{
+        font-size: var(--size-lg);
+    
+    }
+   
 }
 @media(min-width:1024px){
     .hero{
@@ -74,6 +79,36 @@
     }
     .hero__name{    
         font-size: var(--size-6xl);
+    }
+    .hero__more{
+        font-size: var(--size-2xl);
+    
+    }
+    
+}
+@media(min-width:1440px){
+    .hero{
+        height: 475px;
+        
+    }
+    .hero__image{
+        width: 350px;
+        height:300px;
+        border-radius: 350px;
+        
+    }
+    
+    .hero__greet{
+        font-size: var(--size-6xl);
+       
+    
+    }
+    .hero__name{    
+        font-size: var(--size-8xl);
+    }
+    .hero__more{
+        font-size: var(--size-4xl);
+    
     }
     
 }

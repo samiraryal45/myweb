@@ -73,3 +73,17 @@
 
 
 }
+@media(min-width:1440px){
+
+    .header__topic{
+        
+        font-size: var(--size-2xl);
+     
+    }
+    .header__listing{
+        font-size: var(--size-lg);
+        
+    }
+
+
+}

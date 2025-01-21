@@ -38,3 +38,15 @@
         
     }
 }
+@media(min-width:1440px){
+    .blockquote__footer{
+        font-size: var(--size-lg);
+    }
+    .name__fotter{
+        
+        margin-right:10px;
+    
+        font-size: var(--size-2xl);
+        
+    }
+}

@@ -63,3 +63,21 @@
         }
         
     }
+    @media(min-width:1440px){
+        .more__section{
+            gap: 6rem;
+        }
+        .more__title{
+           
+            font-size: var(--size-6xl);
+        }
+        .more__description{
+           
+            width: 400px;
+            height:200px;
+           
+            font-size: var(--size-md);
+        
+        }
+        
+    }
