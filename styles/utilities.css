@@ -26,6 +26,7 @@
 }
 
     @media(min-width:768px){
+        
         .more__section{
         gap: 3rem;
         }
@@ -46,6 +47,7 @@
         }
     }
     @media(min-width:1024px){
+        
         .more__section{
             gap: 5rem;
         }
@@ -64,6 +66,7 @@
         
     }
     @media(min-width:1440px){
+        
         .more__section{
             gap: 6rem;
         }

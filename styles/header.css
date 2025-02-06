@@ -6,6 +6,8 @@
     align-items: center;
     background-color: var(--clr-dark);
     margin: 5px;
+    position: relative;
+    z-index: 9999;
 }
 .header__topic{
     margin-left: 50px;

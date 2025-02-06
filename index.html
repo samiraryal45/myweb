@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/utilities.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/mobile-nav.css">
+
 
     <script
     src="https://kit.fontawesome.com/ef5dc17bf8.js"
@@ -25,22 +27,35 @@
     <div class="header__topic"><h2>My Portfolio</h2></div>
     <div><ul class="header__lists">
         <li class="header__listing" ><a href="#home"  class="header__links"> Home</a></li>
-        <li class="header__listing"><a href="#about"class="header__links" > About Me</a></li>
+        <li class="header__listing"><a href="#about" class="header__links" > About Me</a></li>
         <li class="header__listing">&check;</li>
         
-         
-    </ul>
-    <button class="header__bars">
+
         
-        &Congruent;
-          
-    </button>
-    
+    </ul>
+    <button  class="header__bars" >
+        
+      &Congruent;
+        
+  </button>
 </div>
+    </header>
+
+    <!-- mobile menu -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li class="mobile-nav__lists"> <a  class="mobile-nav__links" href="#home">Home</a></li>
+          <li class="mobile-nav__lists"><a  class="mobile-nav__links" href="#about"> About</a></li>
+          <li class="mobile-nav__lists"><a  class="mobile-nav__links" href="#check">&check;</a></li>
+        </ul>
+      </nav>
+     </div>
+   
     
 
+    
 
-    </header>
     <main class="home" id="home">
         <section class="hero ">
         
@@ -118,6 +133,6 @@
     - Samir Aryal
   </h3>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
