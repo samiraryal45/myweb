@@ -28,7 +28,17 @@ mobileLinks.forEach(link => {
         
         mobileMenu.style.display = 'none';
         document.body.style.overflowY = 'auto'
+        if (val === "white") {
 
+
+            body.style.backgroundColor = 'black';
+            val = "black";
+        }
+        else {
+    
+            body.style.backgroundColor = 'white';
+            val = "white";
+        }
     })
 
 
