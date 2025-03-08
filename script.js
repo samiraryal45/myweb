@@ -1,7 +1,7 @@
 const btnBars = document.querySelector(".header__bars");
 const mobileMenu = document.querySelector(".mobile-nav");
 const mobileLinks = document.querySelectorAll(".mobile-nav__links");
-const btns = document.querySelectorAll("#modeBtn"); // Use a plural name since it's a NodeList
+const btns = document.querySelectorAll("#modeBtn"); 
 const body = document.querySelector("body");
 
 let display = 0;
@@ -28,7 +28,7 @@ mobileLinks.forEach(link => {
     });
 });
 
-// Loop through all buttons and attach the event listener
+
 btns.forEach(btn => {
     btn.addEventListener("click", function () {
         if (val === "white") {
