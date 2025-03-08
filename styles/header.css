@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--clr-dark);
-    margin: 5px;
+    
     position: relative;
     z-index: 9999;
 }
