@@ -7,6 +7,10 @@
     text-align: center;
     margin-right:5px;
     margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .hero__image{
     margin: 0 auto;
