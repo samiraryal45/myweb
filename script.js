@@ -3,6 +3,7 @@ const mobileMenu = document.querySelector(".mobile-nav");
 const mobileLinks = document.querySelectorAll(".mobile-nav__links");
 const btns = document.querySelectorAll("#modeBtn"); 
 const body = document.querySelector("body");
+const about = document.querySelector("about__title");
 
 let display = 0;
 let val = "white";
@@ -33,9 +34,12 @@ btns.forEach(btn => {
     btn.addEventListener("click", function () {
         if (val === "white") {
             body.style.backgroundColor = 'black';
+            about__title.style.color='white';
             val = "black";
         } else {
             body.style.backgroundColor = 'white';
+            about__title.style.color='black';
+
             val = "white";
         }
     });

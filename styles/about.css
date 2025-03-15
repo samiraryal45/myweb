@@ -9,7 +9,7 @@
     width: 200px;
     height: 150px;
 }
-.about__title{
+#about__title{
     font-size: var(--size-md);
     margin-left:45px ;
 }
@@ -25,7 +25,7 @@
         width: 300px;
         height: 150px;
     }
-    .about__title{
+    #about__title{
     font-size: var(--size-2xl);
 
     }
@@ -38,7 +38,7 @@
         width: 400px;
         height: 200px;
     }
-    .about__title{
+    #about__title{
     font-size: var(--size-4xl);
 
     }
@@ -51,7 +51,7 @@
         width: 400px;
         height: 200px;
     }
-    .about__title{
+    #about__title{
     font-size: var(--size-6xl);
 
     }
